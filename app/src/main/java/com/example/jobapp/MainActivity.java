@@ -31,28 +31,6 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
-        listView=(ListView)findViewById(R.id.listview);
-
-        ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("Company1");
-        arrayList.add("Company2");
-        arrayList.add("Company3");
-        arrayList.add("Company4");
-        arrayList.add("Company5");
-        arrayList.add("Company1");
-        arrayList.add("Company2");
-        arrayList.add("Company3");
-        arrayList.add("Company4");
-        arrayList.add("Company5");
-        arrayList.add("Company1");
-        arrayList.add("Company2");
-        arrayList.add("Company3");
-        arrayList.add("Company4");
-        arrayList.add("Company5");
-
-        ArrayAdapter arrayAdapter= new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayList);
-
-        listView.setAdapter(arrayAdapter);
 
 
     }
