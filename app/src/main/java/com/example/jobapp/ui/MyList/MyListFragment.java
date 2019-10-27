@@ -23,7 +23,7 @@ public class MyListFragment extends Fragment {
         notificationsViewModel =
                 ViewModelProviders.of(this).get(MyListViewModel.class);
         View root = inflater.inflate(R.layout.fragment_my_list, container, false);
-        final TextView textView = root.findViewById(R.id.text_notifications);
+        final TextView textView = root.findViewById(R.id.text_my_list);
         notificationsViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

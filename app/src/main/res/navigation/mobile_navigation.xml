@@ -14,7 +14,7 @@
 
 
     <fragment
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_my_list"
         android:name="com.example.jobapp.ui.MyList.MyListFragment"
         android:label="@string/my_list"
         tools:layout="@layout/fragment_my_list" />

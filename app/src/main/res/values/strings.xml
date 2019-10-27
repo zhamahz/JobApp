@@ -3,5 +3,6 @@
     <string name="home">Home</string>
     <string name="my_list">My List</string>
     <string name="star">Star</string>
+    <string name="search">Search</string>
 
 </resources>
