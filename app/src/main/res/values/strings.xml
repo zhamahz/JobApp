@@ -2,4 +2,6 @@
     <string name="app_name">JobApp</string>
     <string name="home">Home</string>
     <string name="my_list">My List</string>
+    <string name="star">Star</string>
+
 </resources>
