@@ -12,7 +12,6 @@
         tools:layout="@layout/fragment_home" />
 
 
-
     <fragment
         android:id="@+id/navigation_my_list"
         android:name="com.example.jobapp.ui.MyList.MyListFragment"
